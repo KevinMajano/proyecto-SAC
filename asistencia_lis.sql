@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 24, 2022 at 11:10 PM
--- Server version: 10.4.22-MariaDB
--- PHP Version: 8.1.2
+-- Generation Time: Mar 25, 2022 at 11:57 PM
+-- Server version: 10.4.20-MariaDB
+-- PHP Version: 7.4.22
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -32,8 +32,8 @@ USE `asistencia_lis`;
 CREATE TABLE `alumnos` (
   `id_alumno` int(11) NOT NULL,
   `nombre_alumno` varchar(255) COLLATE utf8mb4_spanish2_ci NOT NULL,
-  `nacimiento_alumno` varchar(255) COLLATE utf8mb4_spanish2_ci NOT NULL,
-  `nombre_encargado` date NOT NULL,
+  `nacimiento_alumno` date NOT NULL,
+  `nombre_encargado` varchar(255) COLLATE utf8mb4_spanish2_ci NOT NULL,
   `correo_encargado` varchar(255) COLLATE utf8mb4_spanish2_ci NOT NULL,
   `telefono_encargado` int(8) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_spanish2_ci;
