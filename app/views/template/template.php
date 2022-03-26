@@ -16,6 +16,9 @@ class Page extends Component{
           <meta http-equiv='X-UA-Compatible' content='ie=edge'>
           <link rel='stylesheet' href='../../web/css/bootstrap.min.css'>
           <link rel='stylesheet' href='../../web/css/bootstrap-grid.min.css'>
+          <link href='../../web/css/bootstrap-datetimepicker.css' rel='stylesheet'>
+          <link href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css' rel='stylesheet'>
+          <link href='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/css/bootstrap-datepicker.min.css' rel='stylesheet'>
           <link rel='stylesheet' href='../../web/css/style.css'>
           <script src='../../web/js/sweetalert.min.js'></script>
           <meta name='viewport' content='width=device-width, initial-scale=1.0'>
@@ -34,10 +37,10 @@ class Page extends Component{
   <div class='collapse navbar-collapse' id='navbarTogglerDemo02'>
     <ul class='navbar-nav mr-auto mt-2 mt-lg-0'>
       <li class='nav-item active'>
-        <a class='nav-link' href='#'>Inicio <span class='sr-only'>(current)</span></a>
+        <a class='nav-link' href='../main/index.php'>Inicio <span class='sr-only'>(current)</span></a>
       </li>
       <li class='nav-item'>
-        <a class='nav-link' href='index.php'>Usuarios</a>
+        <a class='nav-link' href='../teachers/index.php'>Profesores</a>
       </li>
     </ul>
   </div>
@@ -50,6 +53,8 @@ class Page extends Component{
 		print("     
 <script src='../../web/js/jquery-3.4.1.min.js'></script>     
 <script src='../../web/js/bootstrap.min.js'></script>
+<script src='https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.9.0/js/bootstrap-datepicker.min.js'></script>
 <script src='../../web/js/script.js'></script>
 </body>
 </html>
