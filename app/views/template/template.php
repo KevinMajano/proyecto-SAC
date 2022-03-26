@@ -42,6 +42,9 @@ class Page extends Component{
       <li class='nav-item'>
         <a class='nav-link' href='../teachers/index.php'>Profesores</a>
       </li>
+      <li class='nav-item'>
+      <a class='nav-link' href='../grades/index.php'>Grados</a>
+    </li>
     </ul>
   </div>
 </nav>
