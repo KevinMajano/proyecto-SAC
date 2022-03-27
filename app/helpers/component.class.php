@@ -1,7 +1,8 @@
 <?php
 class Component{
     public static function showSelect($label, $name, $value, $data){
-		print("<select name='$name' required>");
+		print("<label>$label</label>");
+		print("<select name='$name' class='form-control' id='exampleFormControlSelect1' required>");
 		if($data){
 			if(!$value){
 				print("<option value='' disabled selected>Seleccione una opción</option>");
@@ -17,7 +18,6 @@ class Component{
 			print("<option value='' disabled selected>No hay opciones disponibles</option>");
 		}
 		print("</select>");
-		print("<label>$label</label>");
 	}
 #En este metodo se manda la estructura de los mensajes (la cual ocupa sweetalert libreria)
 	public static function showMessage($type, $message, $url){

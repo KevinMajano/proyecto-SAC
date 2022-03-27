@@ -8,7 +8,7 @@ class Database{
     #Se crea la funcion connect
     private function connect(){
         $server = "localhost";
-        $database = "asistenia_lis";
+        $database = "asistencia_lis";
         $username = "root";
         $password = "";
         try{
