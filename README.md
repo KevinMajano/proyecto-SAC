@@ -11,6 +11,9 @@ Salvador Alejandro González | Meléndez GM190689
 Tablero de trello:
 https://trello.com/invite/b/ZdQgC7UU/f6c01e3ae3faa8190fbeee1919848dad/sac-system
 
+Video prototipo funcional:
+https://drive.google.com/file/d/1tEISKjYh1oiKjSNVrx6iGNpwOV-Ix-rl/view?usp=sharing
+
 Mock Ups:
 https://www.figma.com/file/fVuXYpeFlWGFWcoYZZEJpz/Untitled?node-id=0%3A1
 
