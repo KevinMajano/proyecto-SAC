@@ -9,8 +9,8 @@ class Page extends Component
   public static function templateHeader($title)
   {
     session_start();
-    #Se añade codigo html dentro de las etiquetas de php, esto lo haremos con un print
-    print("
+    if(isset($_SESSION['access_token'])){
+      print("
       <!DOCTYPE html>
       <html lang='en'>
       <head>
@@ -51,13 +51,17 @@ class Page extends Component
             <a href='../grades/'><span><img src='../../web/img/imagenes/image3.png' width='30px'><span/><span class='ml-3'>Grados</span></a>	            
           </li>
              <li>
-             <a href='#'><span><img src='../../web/img/imagenes/image1.png' width='30px'><span/><span class='ml-3'>Alumnos</span></a>	            
+             <a href='../students/'><span><img src='../../web/img/imagenes/image1.png' width='30px'><span/><span class='ml-3'>Alumnos</span></a>	            
 	          </li>
 	          <li>
-            <a href='#'><span><img src='../../web/img/imagenes/image2.png' width='30px'><span/><span class='ml-3'>Faltas</span></a>	            
+            <a href='../faults/'><span><img src='../../web/img/imagenes/image2.png' width='30px'><span/><span class='ml-3'>Faltas</span></a>	            
 	          </li>
 	        </ul>
     
+          <div class='footer'>  
+          <a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/4.0/'><img alt='Licencia de Creative Commons' style='border-width:0' src='https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png' /></a><br />Este obra está bajo una <a rel='license' href='http://creativecommons.org/licenses/by-nc-sa/4.0/'>licencia de Creative Commons Reconocimiento-NoComercial-CompartirIgual 4.0 Internacional</a>
+	        </div>
+
 	      </div>
     	</nav>
 
@@ -91,6 +95,11 @@ class Page extends Component
           </div>
         </nav>
   ");
+    }else{
+      header("Location: ../login/");
+    }
+    #Se añade codigo html dentro de las etiquetas de php, esto lo haremos con un print
+   
   }
 
   public static function templateFooter()
