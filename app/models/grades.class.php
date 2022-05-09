@@ -150,5 +150,20 @@ public function getIdProfesor(){
         $params = array(null);
 		return Database::getRows($sql, $params);
 	}
+
+    public function getAlumnosGrado(){
+        $sql = $sql = "SELECT id_alumno, nombre_alumno, nombre_encargado, telefono_encargado FROM alumnos_grados ag INNER JOIN alumnos a USING(id_alumno) WHERE id_grado = ?";
+        $params = array($this->id_grado);
+		return Database::getRows($sql, $params);
+	}
+
+    public function searchEstudiante($value){
+        #Se guarda la consulta en una variable
+        $sql = "SELECT * FROM alumnos  WHERE nombre_alumno like  ? ORDER BY nombre_alumno AND id_grado = ?";
+         #se guardan los parametros (datos recogidos) en una variable,como un arreglo
+        $params = array("%$value%", $this->id_grado);
+        #Retorna los datos que devuelve el metodo getRows 
+		return Database::getRows($sql, $params);
+    }
 }
 ?>

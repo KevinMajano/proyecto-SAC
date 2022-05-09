@@ -51,6 +51,7 @@ print('
   </a>
 
   <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+  <a class="dropdown-item" href="../students_grades/create.php?id='.$row['id_alumno'].'&from=1"><span><img src="../../web/img/iconos/add.png" width="25px"><span/><span class="ml-3">Opciones de grado</span></a>
   <a class="dropdown-item" href="update.php?id='.$row['id_alumno'].'"><span><img src="../../web/img/iconos/edit.png" width="25px"><span/><span class="ml-3">Editar</span></a>
   <a class="dropdown-item" href="delete.php?id='.$row['id_alumno'].'"><span><img src="../../web/img/iconos/delete.png" width="25px"><span/><span class="ml-3">Eliminar</span></a>
   </div>

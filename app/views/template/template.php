@@ -49,12 +49,15 @@ class Page extends Component
 	          </li>
             <li>
             <a href='../grades/'><span><img src='../../web/img/imagenes/image3.png' width='30px'><span/><span class='ml-3'>Grados</span></a>	            
-          </li>
+            </li>
              <li>
              <a href='../students/'><span><img src='../../web/img/imagenes/image1.png' width='30px'><span/><span class='ml-3'>Alumnos</span></a>	            
 	          </li>
 	          <li>
-            <a href='../faults/'><span><img src='../../web/img/imagenes/image2.png' width='30px'><span/><span class='ml-3'>Faltas</span></a>	            
+            <a href='../faults/'><span><img src='../../web/img/imagenes/image3.png' width='30px'><span/><span class='ml-3'>Faltas de conducta</span></a>	            
+	          </li>
+            <li>
+            <a href='../students_faults/'><span><img src='../../web/img/imagenes/image3.png' width='30px'><span/><span class='ml-3'>Asignar falta de conducta</span></a>	            
 	          </li>
 	        </ul>
     
