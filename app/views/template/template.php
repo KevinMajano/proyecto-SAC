@@ -45,10 +45,10 @@ class Page extends Component
           <div class='p-4'>
           <ul class='list-unstyled components mb-5'>
 	          <li>    
-              <a href='../teachers/'><span><img src='../../web/img/imagenes/image4.png' width='30px'><span/><span class='ml-3'>Profesores</span></a>	            
+              <a href='../teachers/'><span><img src='../../web/img/imagenes/profesor.png' width='30px'><span/><span class='ml-3'>Profesores</span></a>	            
 	          </li>
             <li>
-            <a href='../grades/'><span><img src='../../web/img/imagenes/image3.png' width='30px'><span/><span class='ml-3'>Grados</span></a>	            
+            <a href='../grades/'><span><img src='../../web/img/imagenes/equipo.png' width='30px'><span/><span class='ml-3'>Grados</span></a>	            
             </li>
              <li>
              <a href='../students/'><span><img src='../../web/img/imagenes/image1.png' width='30px'><span/><span class='ml-3'>Alumnos</span></a>	            
@@ -57,10 +57,10 @@ class Page extends Component
             <a href='../faults/'><span><img src='../../web/img/imagenes/image3.png' width='30px'><span/><span class='ml-3'>Faltas de conducta</span></a>	            
 	          </li>
             <li>
-            <a href='../students_faults/'><span><img src='../../web/img/imagenes/image3.png' width='30px'><span/><span class='ml-3'>Asignar falta de conducta</span></a>	            
+            <a href='../students_faults/'><span><img src='../../web/img/imagenes/faults.png' width='30px'><span/><span class='ml-3'>Asignar falta de conducta</span></a>	            
 	          </li>
             <li>
-            <a href='../assistance/'><span><img src='../../web/img/imagenes/old-man.png' width='30px'><span/><span class='ml-3'>Asistencia</span></a>	            
+            <a href='../assistance/'><span><img src='../../web/img/imagenes/image2.png' width='30px'><span/><span class='ml-3'>Asistencia</span></a>	            
 	          </li>
 	        </ul>
     
