@@ -56,6 +56,9 @@ class Page extends Component
 	          <li>
             <a href='../faults/'><span><img src='../../web/img/imagenes/image2.png' width='30px'><span/><span class='ml-3'>Faltas</span></a>	            
 	          </li>
+            <li>
+            <a href='../assistance/'><span><img src='../../web/img/imagenes/old-man.png' width='30px'><span/><span class='ml-3'>Asistencia</span></a>	            
+	          </li>
 	        </ul>
     
           <div class='footer'>  
