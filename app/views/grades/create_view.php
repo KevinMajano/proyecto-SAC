@@ -11,7 +11,7 @@
             <div class="form-group col-md-6">
                 <div class="input-field">
                     <?php
-                    Page::showSelect("Profesores", "profesores", $grades->getNombreProfesor(), $grades->getProfesores());
+                    Page::showSelect("Profesores", "profesores", $grades->getIdProfesor(), $grades->getProfesores());
                     ?>
                 </div>
             </div>
